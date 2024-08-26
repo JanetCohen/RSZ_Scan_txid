@@ -55,3 +55,7 @@ Compressed Address: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa has balance: 100000000, t
 - **Vulnerable Transactions**: The script only processes transactions with exactly two inputs and where the `r` value is reused, which is uncommon but still possible in some cases.
 - **Error Handling**: All operations are enclosed in `try-except` blocks to handle errors gracefully and continue execution.
 
+donate
+Bitcoin : bc1qm3dzv2pkr67d0mknwt2xp95pux3d6kkufym9xr
+usdt(erc20) :
+0x14493055977FEcB437d39F4A4F5294A0Fe8A2765
