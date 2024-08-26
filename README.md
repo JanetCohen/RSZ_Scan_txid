@@ -42,12 +42,15 @@ This Python script scans the Bitcoin blockchain for specific transaction pattern
 ## Example Output
 
 ```
-Enter block number: 700000
-Found 2 transactions in block 700000
-Found matching r values for txid e3a1b5...
-Private Key: 0xabcdef...
-Compressed Address: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa has balance: 100000000, total received: 500000000
-```
+/RSZ_Scan_txid$ python scanrsz.py
+Enter block number: 170399
+Found 68 transactions in block 170399
+Found matching r values for txid 9ec4bc49e828d924af1d1029cacf709431abbde46d59554b62bc270e3b29c4b1
+Private Key: 0xc477f9f65c22cce20657faa5b2d1d8122336f851a508a1ed04e479c34985bf96
+Compressed Address: 1CkGXcY4eYCJ5QjcxF7WmhXG3dhzbAg2Kk has balance: 0, total received: 103002
+Uncompressed Address: 1BFhrfTTZP3Nw4BNy4eX4KFLsn9ZeijcMm has balance: 0, total received: 16388140
+Found 1 transactions in block 170400
+Found 54 transactions in block 170401```
 
 ## Note
 
